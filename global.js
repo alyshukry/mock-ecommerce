@@ -1,6 +1,6 @@
 // Function to load an HTML component
 function loadComponent(element, filePath) {
-    fetch(`http://192.168.1.198:5500/${filePath}`)
+    fetch(`${filePath}`)
         .then(response => response.text())
         .then(html => {
             document.querySelector(element).innerHTML = html;
