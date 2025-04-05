@@ -1,0 +1,114 @@
+.banners-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+    scroll-behavior: smooth;
+}
+
+.banners-display .container {
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+
+    width: 864px;
+}
+
+@media (max-width: 890px) {
+    .banners-display .container {
+        width: 598px;
+    }
+}
+
+@media (max-width: 630px) {
+    .banners-display .container {
+        width: 334px;
+    }
+}
+
+.banners-display .container .arrow {
+    z-index: 987;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-color-2);
+    font-size: 24px;
+
+    width: 35px;
+    height: 410px;
+    margin-left: 5px;
+
+    background-color: var(--button-color);
+
+    cursor: pointer;
+}
+.banners-display .container .arrow:hover {
+    background-color: var(--button-color-2);
+}
+
+.banners-display .container .left-arrow {
+    border-radius: 16px 4px 4px 16px;
+}
+.banners-display .container .right-arrow {
+    border-radius: 4px 16px 16px 4px;
+}
+
+.banners-display .container .banners {
+    display: flex;
+
+    width: 100%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.banners-display .container .banners .banner {
+    position: relative;
+    flex: 0 0 250px;
+
+    height: 400px;
+    width: 250px;
+    margin: 5px;
+
+    background-size: cover;
+    border-radius: 16px;
+
+    color: white;
+
+    transition: left 0.3s, transform 0.05s;
+}
+.banners-display .container .banners .banner:hover {
+    transform: scale(1.025);
+
+    cursor: pointer;
+}
+
+.banners-display .banner .text{
+    display: flex;
+    justify-content: center;
+    
+    transform: translate(0, 300px);
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    background-color: var(--button-color);
+}
+
+.banners-display .banner .text p {
+    font-weight: 500;
+    font-size: 0.75em;
+    color: var(--text-color);
+    text-align: center;
+
+    width: max-content;
+}

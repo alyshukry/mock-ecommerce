@@ -1,0 +1,40 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 50vh;
+    width: 100vw;
+
+    margin-top: 50px;
+
+    background-color: rgba(35, 35, 35);
+}
+
+footer #footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #footer-columns div {
+    flex: 1;
+
+    color: white;
+
+    padding: 25px;
+}
+
+footer #footer-columns div a {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+footer #footer-bottom {
+    flex: 1;
+
+    color: white;
+
+    padding-left: 25px;
+    padding-bottom: 10px;
+}

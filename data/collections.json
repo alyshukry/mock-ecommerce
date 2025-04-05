@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "name": "knitted",
+        "image": "assets/images/knitted.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "summer",
+        "image": "assets/images/summer.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "winter",
+        "image": "assets/images/winter.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "swimwear",
+        "image": "assets/images/swimwear.jpeg"
+    },
+    {
+        "id": "5",
+        "name": "homewear",
+        "image": "assets/images/homewear.jpeg"
+    }
+]

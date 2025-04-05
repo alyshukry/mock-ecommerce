@@ -1,0 +1,110 @@
+#filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: relative; /* Keeps the .options-box under it's filter when scrolling (idk why) */
+
+    overflow-x: auto;
+
+    width: 100%;
+    height: 100%;
+
+    padding-right: 25px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 25px;
+}
+
+.name {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text {
+    text-wrap: nowrap;
+}
+
+.options-box {
+    z-index: 999;
+    
+    display: none; /* Hide initially */
+    height: 0px;
+
+    position: absolute;
+    transform: translate(0px, 2em);
+
+    padding: 10px;
+
+    border-radius: 8px;
+    background-color: var(--button-color);
+}   .options-box.active {
+    display: block;
+    height: fit-content;
+}
+
+.name:hover {
+    color: var(--text-color-2);
+}
+
+.text {
+    display: inline;
+
+    font-weight: 625;
+    font-size: 1.1em;
+
+    margin: 0px 10px 0px 0px;
+}
+
+.arrow-up-icon svg {
+    transition: transform 0.3s;
+}
+
+input[type="range"] {
+    width: 100%;
+
+    cursor: pointer;
+
+    background: transparent;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 3px;
+
+    border-radius: 3px;
+    border: none;
+}
+/* Firefox */
+input[type="range"]::-moz-range-track {
+    height: 3px;
+
+    border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 12px;
+    width: 12px;
+
+    margin-top: -6px;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+}
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+    height: 12px;
+    width: 12px;
+
+    border: none;
+    border-radius: 50%;
+}
+
+#price-range {
+    margin: 0px;
+}

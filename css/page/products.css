@@ -1,0 +1,32 @@
+@import url(../products.css);
+@import url(../filters.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: calc(10vh + 2 * 0.75vw);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+#filters-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 10vh;
+}
+
+#filters-icon {
+    display: flex;
+    flex-wrap: nowrap;
+
+    width: fit-content;
+
+    padding-right: 25px;
+    padding-left: 25px;
+    left: 0;
+}

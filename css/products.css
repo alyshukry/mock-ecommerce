@@ -1,0 +1,75 @@
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    width: 100%;
+
+    padding-top: 25px;
+    gap: 32px;
+}
+
+.product {
+    flex: 0 0 175px;
+    height: fit-content;
+}
+
+.product .image {
+    width: 175px;
+    height: 225px;
+
+    background-image: url(../assets/images/products/sweatpants-front.webp);
+    background-size: cover;
+
+    border-radius: 8px;
+
+    transition: transform 0.05s ease-in-out;
+}
+.product .image:hover {
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+
+.product .image .colors {
+    display: flex;
+
+    padding: 4px;
+
+    justify-content: start;
+
+    transform: translate(0, 198px);
+
+    border-radius: 0px 0px 6px 6px;
+    background-color: var(--button-color-2);
+}
+
+.product .image .colors svg {
+    padding: 4px;
+    
+    width: 16px;
+    height: 16px;
+}
+
+.product .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 16px;
+
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.product .info * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.product .info .price {
+    font-weight: 450;
+}

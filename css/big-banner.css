@@ -1,0 +1,57 @@
+#big-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vh;
+    width: 100vw;
+
+    background-image: url(../assets/images/banner.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#big-banner #slogan {
+    letter-spacing: 10px;
+    word-spacing: 20px;
+
+    font-weight: 600;
+    font-size: 7.5vh;
+    text-align: center;
+    color: white;
+
+    width: 75%;
+}
+
+#big-banner #shop-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+#big-banner #shop-buttons div {
+    display: block;
+    
+    color: white;
+    font-size: 1.25em;
+
+    padding: 0.75em;
+    margin: 0.5em;
+    border-radius: 8px;
+
+    background-color: var(--accent-color);
+}
+
+#big-banner #shop-buttons div:hover {
+    background-color: var(--accent-hover-color);
+}
+
+#big-banner #shop-buttons a {
+    font-weight: 500;
+
+    text-decoration: none;
+    text-align: center;
+}

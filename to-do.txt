@@ -1,0 +1,5 @@
+ - when hovering over a product add a button for add to cart
+ - banners displays break when user changes screen width, for example if their width made the banners displays display two banners, then
+   the user widened their screen, the banners are offset
+ - use apple font for normal text
+ - try getting the apple icons

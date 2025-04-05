@@ -1,0 +1,11 @@
+@import url(../big-banner.css);
+@import url(../banners-display.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: calc(10vh + 2 * 0.75vw);
+}

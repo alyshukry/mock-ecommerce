@@ -1,0 +1,114 @@
+@import url(hamburger-menu.css);
+@import url(header.css);
+@import url(footer.css);
+
+html {
+    scrollbar-gutter: stable;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/*  Default light mode colors: */
+:root {
+    --bg-color: rgb(255, 255, 255);
+    --header-color: rgb(235, 235, 235);
+
+    --text-color: rgb(0, 0, 0);
+    --text-color-2: rgb(70, 70, 70);
+    --icon-color: rgb(71, 59, 59);
+
+    --line-color: rgb(240, 240, 240);
+    --menu-bg-color: rgba(250, 250, 250);
+
+    --button-color: rgb(220, 220, 220);
+    --button-color-2: rgb(200, 200, 200);
+
+    --shadow-color: rgb(0, 0, 0, 0.5);
+
+    --accent-color: rgb(0, 117, 242);
+    --accent-hover-color: rgb(0, 73, 242);
+}
+
+/* Dark mode colors: */
+.dark-mode {
+    --bg-color: rgb(15, 15, 15);
+    --header-color: rgb(35, 35, 35);
+
+    --text-color: rgb(230, 230, 230);
+    --text-color-2: rgb(170, 170, 170);
+    --icon-color: rgb(255, 255, 255);
+
+    --line-color: rgb(60, 60, 60);
+    --menu-bg-color: rgba(30, 30, 30);
+
+    --button-color: rgb(35, 35, 35);
+    --button-color-2: rgb(40, 40, 40);
+
+    --shadow-color: rgb(0, 0, 0, 0.8);
+
+    --accent-color: rgb(0, 117, 242);
+    --accent-hover-color: rgb(0, 73, 242);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'inter-italic';
+    src: url(../assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'raleway-italic';
+    src: url(../assets/fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'montserrat-italic';
+    src: url(../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'montserrat';
+    text-rendering: optimizeSpeed;
+    transition: background .1s, filter .1s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.marquee {
+    animation: marquee 4s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translate(0%, 0)
+    }
+    to {
+        transform: translate(-50%, 0);
+    }
+}

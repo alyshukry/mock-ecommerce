@@ -1,0 +1,267 @@
+[
+    {
+        "id": 0,
+        "name": "Classic T-Shirt",
+        "description": "A comfortable and stylish t-shirt made from 100% cotton.",
+        "price": 199.99,
+        "currency": "EGP",
+        "categories": ["shirts", "men", "women", "summer", "winter"],
+        "stock": 50,
+        "sales_count": 345,
+        "image": "assets/images/products/tshirt-front.webp",
+        "images": [
+            "assets/images/products/tshirt-front.webp",
+            "assets/images/products/tshirt-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969",
+            "black & white": ["#000000", "#FFFFFF"]
+        },
+      "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer", "winter"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    },
+    {
+        "id": 1,
+        "name": "Classic Sweatpants",
+        "description": "Comfortable and stylish sweatpants made from 100% cotton.",
+        "price": 299.99,
+        "currency": "EGP",
+        "categories": ["pants", "men", "women", "summer"],
+        "stock": 30,
+        "sales_count": 289,
+        "image": "assets/images/products/sweatpants-front.webp",
+        "images": [
+          "assets/images/products/sweatpants-front.webp",
+          "assets/images/products/sweatpants-back.jpeg"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "colors": {
+            "white": "#FFFFFF", 
+            "black": "#000000", 
+            "gray": "#696969"
+        },
+        "discount": 0
+    }
+]
