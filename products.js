@@ -9,7 +9,7 @@ createProductCards("#products");
 function createProductCards(parent) {
     return new Promise((resolve, reject) => {
 
-        fetch("http://192.168.1.198:5500/data/products.json")
+        fetch("data/products.json")
             .then(response => response.json())
             .then(products => {
                 if (!Array.isArray(products)) {
@@ -118,7 +118,7 @@ function toggleFilter(element) {
 // });
 
 // Adding categories to categories filter
-fetch("http://192.168.1.198:5500/data/products.json")
+fetch("data/products.json")
     .then(response => response.json())
     .then(products => {
         const uniqueCategories = new Set(); // Creates a set that cannot contain duplicates
@@ -134,7 +134,7 @@ fetch("http://192.168.1.198:5500/data/products.json")
     .catch(error => console.error("Error: " + error));
 
 // Adding colors to colors filter
-fetch("http://192.168.1.198:5500/data/products.json")
+fetch("products.json")
     .then(response => response.json())
     .then(products => {
         const uniqueColors = new Set(); // Creates a set that cannot contain duplicates

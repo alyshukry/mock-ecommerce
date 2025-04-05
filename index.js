@@ -59,7 +59,7 @@ function createBannersDisplay(id, header, data, parent) {
         container.appendChild(banners);
         container.appendChild(rightArrow);
 
-        fetch(`http://192.168.1.198:5500/${data}`)
+        fetch(`${data}`)
             .then(response => response.json())
             .then(B => {
                 if (!Array.isArray(B)) {
